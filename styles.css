@@ -14,16 +14,30 @@ body{
 }
 
 .header {
-    /* put something in here possibly */
+    height:15%;
+    background-color:#262523;
 }
 
 .header h1 {
-    width: 60%;
+    background-color: #50dbde;
+    width: 15%;
     display: flex;
     font-size: 30px;
-    position: relative;
     margin: 5px;
     border: 2px solid #000;
     float: left;
     
+}
+
+.header div {
+list-style-type: none;
+}
+
+.header ul li {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    flex-wrap: wrap;
+    color: #50dbde;
+    font-size: 20px;
 }

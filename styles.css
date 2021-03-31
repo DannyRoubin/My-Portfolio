@@ -14,7 +14,7 @@ body{
 }
 
 .header {
-    height:15%;
+    height:70px;
     background-color:#262523;
 }
 
@@ -26,6 +26,9 @@ body{
     margin: 5px;
     border: 2px solid #000;
     float: left;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    padding-top: 5px;
     
 }
 
@@ -33,11 +36,18 @@ body{
 list-style-type: none;
 }
 
-.header ul li {
+.header ul {
     display: flex;
     justify-content: flex-end;
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap: wrap; 
+    align-items: flex-end;
+    padding-top: 30px;
+}
+
+.header ul li {
     color: #50dbde;
     font-size: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
 }

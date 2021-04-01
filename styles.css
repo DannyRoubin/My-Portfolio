@@ -1,5 +1,6 @@
 :root {
     --background-color: aliceblue;
+    --header-text-back-color: #50dbde;
 }
 
 *{
@@ -19,11 +20,10 @@ body{
 }
 
 .header h1 {
-    background-color: #50dbde;
-    width: 15%;
+    background-color: var(--header-text-back-color);
     display: flex;
     font-size: 30px;
-    margin: 5px;
+    margin: 7px;
     border: 2px solid #000;
     float: left;
     padding-left: 15px;
@@ -50,4 +50,19 @@ list-style-type: none;
     font-size: 20px;
     padding-right: 10px;
     padding-left: 10px;
+}
+
+article {
+height: 150px;
+    background-image: url("Banner.jpg");
+}
+
+article h1 {
+    background-color: var(--header-text-back-color);
+    font-size: 30px;
+    display: flex;
+    border: 2px solid #000;
+    float: right;
+    margin-top: 100px;
+
 }
